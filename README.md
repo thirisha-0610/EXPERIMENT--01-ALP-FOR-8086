@@ -1,10 +1,11 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+Name :THIRISHA A
 
 
+Roll no: 212223040228
 
+
+Date of experiment :10/03/2025
 
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
@@ -78,27 +79,110 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
+```
+Mov AL,74H
+Mov BL,69H
+ADD AL,BL 
+HLT
+```
 
+## Output 
 
-
-## Output  
+![WhatsApp Image 2025-03-10 at 14 24 37_9a1ebf78](https://github.com/user-attachments/assets/cb793cf6-4079-46cf-8311-f0807d15d018)
  
 ## Subtraction   of 8 bit numbers  ALP 
- 
+```
+Mov AL,74H
+Mov BL,69H
+SUB AL,BL 
+HLT
+``` 
+## Output 
+
+![WhatsApp Image 2025-03-10 at 14 18 50_7930dd19](https://github.com/user-attachments/assets/258caa9a-2f85-41c8-9627-f9dce96a764b)
+
+
+## Multiplication ALP
+```
+org 100h
+Mov AL,74H
+Mov BL,69H
+MUL BL 
+HLT 
+RET
+```
+
 ## Output  
-## Multiplication alp 
- ## Output  
+
+![WhatsApp Image 2025-03-10 at 14 20 21_0b9e3e85](https://github.com/user-attachments/assets/31456c62-f317-4203-8a07-d7631b8dfc0c)
 
 
-## Division alp 
-
+## Division ALP
+```
+org 100h
+Mov AL,74H
+Mov BL,69H
+DIV BL 
+HLT 
+RET
+```
 ## Output  
+
+![WhatsApp Image 2025-03-10 at 14 20 27_3756ecf3](https://github.com/user-attachments/assets/23840e71-039e-4495-b897-afba9f668802)
+
+
+## AND ALP
+```
+Mov AL,33H
+Mov BL,44H
+AND AL,BL
+HLT
+```
+## OUTPUT
+
+![WhatsApp Image 2025-03-10 at 14 20 42_0173c5d1](https://github.com/user-attachments/assets/4fd88002-e624-4140-8f9c-8d4090d0aaea)
+
+
+### OR ALP
+```
+Mov AL,33H
+Mov BL,44H
+OR AL,BL
+HLT
+```
+# OUTPUT
+
+![WhatsApp Image 2025-03-10 at 14 20 48_39f18901](https://github.com/user-attachments/assets/02f891f9-ce8a-4dc4-8fc0-ae9a88f6227a)
+
+
+### NOT ALP
+```
+Mov AL,33H
+NOT AL,BL
+HLT
+```
+# OUTPUT
+
+![WhatsApp Image 2025-03-10 at 14 20 59_29677444](https://github.com/user-attachments/assets/5010982c-1a37-4e51-8ba4-b8f8cf779654)
+
+
+## XOR ALP
+```
+org 100h
+Mov AL,66H
+MOV BL,77h
+XOR AL,BL
+HLT     
+ret
+```
+# OUTPUT
+
+![WhatsApp Image 2025-03-10 at 14 21 18_55614902](https://github.com/user-attachments/assets/6c17c57c-b0f5-48ab-83ce-8c785915314a)
 
 
 ## Result :
- 
 
-
+The execution of ALP on fundamental arithmetic and logical operations is successfully completed.
 
 
 
